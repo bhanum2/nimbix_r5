@@ -91,6 +91,10 @@ RUN pip install cython
 RUN pip install pyspark
 RUN pip install ibmseti
 RUN pip install python-resize-image
+RUN pip install watson_developer_cloud
+RUN pip install quandl
+RUN pip install zope
+RUN conda install -y zope
 
 # WORKDIR /root
 # RUN wget https://d3kbcqa49mib13.cloudfront.net/spark-2.2.0-bin-hadoop2.7.tgz
