@@ -91,7 +91,7 @@ RUN pip install cython
 RUN pip install pyspark
 RUN pip install ibmseti
 RUN pip install python-resize-image
-RUN pip install watson_developer_cloud
+RUN pip install nytimesarticle
 RUN pip install quandl
 RUN pip install zope
 RUN conda install -y zope
